@@ -1,0 +1,62 @@
+body {
+    --fontColor: white;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    margin: 10px 0px;
+    font-size: 4.3rem;
+    font-family: sans-serif
+}
+
+#timer {
+    font-size: 2.8rem;
+}
+
+#label {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-right: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+#start {
+    background-color: green;
+    color: var(--fontColor);
+}
+
+#stop {
+    background-color: red;
+    color: var(--fontColor);
+}
+
+#reset {
+    background-color: blueviolet;
+    color: var(--fontColor);
+}
+
+#stopWatch {
+    background-color: bisque;
+    height: 70vh;
+    width: 35vw;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid blue;
+}
+
+section {
+    margin-top: -70px;
+}
