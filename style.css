@@ -31,12 +31,12 @@ button {
 }
 
 #start {
-    background-color: pink;
+    background-color: blueviolet;
     color: var(--fontColor);
 }
 
 #stop {
-    background-color: olivedrab;
+    background-color: black;
     color: var(--fontColor);
 }
 
@@ -46,7 +46,7 @@ button {
 }
 
 #stopWatch {
-    background-color: black;
+    background-color: pink;
     height: 70vh;
     width: 35vw;
     border-radius: 50%;
